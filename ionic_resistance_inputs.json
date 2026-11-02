@@ -1,0 +1,33 @@
+{
+  "model_name": "Uniform effective ionic-resistance illustration",
+  "source_claim_id": "R007-C009",
+  "source_citekey": "jeon_thick_2026",
+  "parameter_status": "All numerical inputs below are explicit illustrative assumptions; not measured, fitted, or claimed commercial limits",
+  "bulk_conductivity_mS_cm": 10,
+  "porosity": 0.3,
+  "tortuosity_factor": 3,
+  "thickness_um": [
+    50,
+    100,
+    200
+  ],
+  "projected_area_cm2": [
+    1,
+    10,
+    100
+  ],
+  "nominal_areal_capacity_mAh_cm2": 3.5,
+  "nominal_rate_per_h": [
+    0.5,
+    1,
+    2,
+    3
+  ],
+  "limits": [
+    "Uniform through-plane effective-medium slab approximation",
+    "Only effective ionic ohmic drop, not total cell polarization",
+    "Fixed areal capacity in the thickness sweep is a partial sensitivity comparison, not a self-consistent fixed-composition electrode-loading series",
+    "No concentration depletion, solid diffusion, reaction kinetics, temperature dependence, current-collector spreading, plating or safety predictions",
+    "No validation or fitting to Jeon measurements"
+  ]
+}

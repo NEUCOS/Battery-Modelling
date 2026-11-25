@@ -11,11 +11,7 @@
     100,
     200
   ],
-  "projected_area_cm2": [
-    1,
-    10,
-    100
-  ],
+  "reference_area_cm2": 1,
   "nominal_areal_capacity_mAh_cm2": 3.5,
   "nominal_rate_per_h": [
     0.5,
@@ -24,7 +20,8 @@
     3
   ],
   "limits": [
-    "Uniform through-plane effective-medium slab approximation",
+    "Uniform through-plane effective-medium slab approximation across 12 thickness x rate combinations",
+    "Area-specific ionic resistance (ASR = L / kappa_eff) and ohmic drop (DeltaV_ion = j * ASR) are independent of projected area A; reference_area_cm2 is used only to convert to total current I = j * A and total resistance R_ion = ASR / A",
     "Only effective ionic ohmic drop, not total cell polarization",
     "Fixed areal capacity in the thickness sweep is a partial sensitivity comparison, not a self-consistent fixed-composition electrode-loading series",
     "No concentration depletion, solid diffusion, reaction kinetics, temperature dependence, current-collector spreading, plating or safety predictions",
